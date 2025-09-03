@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input#input-text {
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  color: black;
+  outline: none;
+}
+
+button.btn {
+  padding: 10px;
+  border: none;
+  background: white;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: -5px;
+  cursor: pointer;
+}
